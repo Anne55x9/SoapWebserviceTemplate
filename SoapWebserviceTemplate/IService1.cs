@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModelLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -12,6 +13,21 @@ namespace SoapWebserviceTemplate
     [ServiceContract]
     public interface IService1
     {
+        [OperationContract]
+        double GetValue1(double x1, double x2, double x3);
+
+        [OperationContract]
+        double GetValue2(double x2, double x3, double x4);
+
+        [OperationContract]
+        void InsertTableXX(string navn, double x1, double x2, double x3, double x4);
+
+        /// <summary>
+        /// Metode til at se alle udregninger fra azure tabel.
+        /// </summary>
+        /// <returns></returns>
+        [OperationContract]
+        IList<ClassModel> GetAllTableXX();
 
         [OperationContract]
         string GetData(int value);

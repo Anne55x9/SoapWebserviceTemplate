@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ModelLib" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ModelLib" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfClassModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ClassModel" nillable="true" type="tns:ClassModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClassModel" nillable="true" type="tns:ArrayOfClassModel" />
+  <xs:complexType name="ClassModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Navn" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="X1" type="xs:double" />
+      <xs:element minOccurs="0" name="X2" type="xs:double" />
+      <xs:element minOccurs="0" name="X3" type="xs:double" />
+      <xs:element minOccurs="0" name="X4" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClassModel" nillable="true" type="tns:ClassModel" />
+</xs:schema>

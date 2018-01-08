@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapWebserviceTemplate", "SoapWebserviceTemplate\SoapWebserviceTemplate.csproj", "{191D9B66-2109-4EBE-A498-300DBDCD99B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapWebserviceTemplateTests", "SoapWebserviceTemplateTests\SoapWebserviceTemplateTests.csproj", "{990B8D52-A8D9-4007-A99A-5B467BC7545B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapClient", "SoapClient\SoapClient.csproj", "{ACC7B3A4-01C7-490A-855E-1A8CE6C2B340}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLib", "ModelLib\ModelLib.csproj", "{925686DB-1094-4EE7-A624-CD8AE88DBAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLibTests", "ModelLibTests\ModelLibTests.csproj", "{B5A8B044-D5D6-4DE9-A549-3484395D2C7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{191D9B66-2109-4EBE-A498-300DBDCD99B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{191D9B66-2109-4EBE-A498-300DBDCD99B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{191D9B66-2109-4EBE-A498-300DBDCD99B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990B8D52-A8D9-4007-A99A-5B467BC7545B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990B8D52-A8D9-4007-A99A-5B467BC7545B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990B8D52-A8D9-4007-A99A-5B467BC7545B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990B8D52-A8D9-4007-A99A-5B467BC7545B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACC7B3A4-01C7-490A-855E-1A8CE6C2B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACC7B3A4-01C7-490A-855E-1A8CE6C2B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACC7B3A4-01C7-490A-855E-1A8CE6C2B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACC7B3A4-01C7-490A-855E-1A8CE6C2B340}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925686DB-1094-4EE7-A624-CD8AE88DBAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925686DB-1094-4EE7-A624-CD8AE88DBAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925686DB-1094-4EE7-A624-CD8AE88DBAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925686DB-1094-4EE7-A624-CD8AE88DBAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A8B044-D5D6-4DE9-A549-3484395D2C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A8B044-D5D6-4DE9-A549-3484395D2C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A8B044-D5D6-4DE9-A549-3484395D2C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A8B044-D5D6-4DE9-A549-3484395D2C7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
